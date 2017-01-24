@@ -1,22 +1,94 @@
 body{
     margin: 0;
+    font-family: Arial;
+    font-size: 12px;
 }
 /*
 *****************************
-    CABEÇALHO DO PORTAL
+    1º TOPO DO PORTAL
 *****************************
 */
-header{
+.topo{
     height: 30px;
     background-color: #333;
+    color: #FFF;
 }
 .topo-area{
     width: 100%;
     max-width: 1040px;
     height: 30px;
-    background-color: green;
     margin: auto;
 }
 .topo-left{
-    
+    float: left;
+    width: 50%;
+    height: 30px;
+}
+.topo-left ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.topo-left ul li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px 8px;
+}
+.topo-left ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+.topo-left ul li .ativo {
+    color: blue;
+}
+
+
+.topo-right{
+    float: right;
+    width: 50%;
+    height: 28px;
+    text-align: right;
+    margin-top: 2px;
+}
+.topo-right a, input{
+    float: right;
+}
+.topo-right .topo-busca {
+    width: 110px;
+    height: 24px;
+    border: 0;
+    outline: 0;
+}
+.topo-right img {
+    margin-right: 4px;
+}
+
+/*
+*****************************
+    2º TOPO DO PORTAL
+*****************************
+*/
+.topo2{
+    height: 95px;
+    color: #FFF;
+}
+.topo-area2{
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: auto;
+}
+.topo2 .logo {
+    width: 230px;
+    height: 90px;
+    float: left;
+    margin-top: 5px;
+}
+.topo2 .banner{
+    width: 600px;
+    height: 80px;
+    float: right;
+    margin-top: 7px;
+    background-color: red;
 }
