@@ -90,5 +90,57 @@ body{
     height: 80px;
     float: right;
     margin-top: 7px;
-    background-color: red;
+    background-color: #FF0000;
+}
+
+/*
+*****************************
+    MENU DO PORTAL
+*****************************
+*/
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: #FF0000;
+}
+nav .menu-area{
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+nav .menu-area > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav .menu-area ul li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+nav .menu-area ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+/* Menu Dropdown */
+nav .menu-area ul li .submenu {
+    width: 150px;
+    background-color: #FF0000;
+    position: absolute;
+    display: none;
+}
+nav .menu-area ul li:hover .submenu {
+    display: block;
+}
+nav .menu-area ul li .submenu .submenu-item{
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+nav .menu-area ul li .submenu .submenu-item:hover{
+    background-color: #FF5555;
 }
