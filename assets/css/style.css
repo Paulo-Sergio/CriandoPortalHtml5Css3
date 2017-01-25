@@ -144,3 +144,83 @@ nav .menu-area ul li .submenu .submenu-item{
 nav .menu-area ul li .submenu .submenu-item:hover{
     background-color: #FF5555;
 }
+
+
+/*
+*****************************
+    CAMPO ULTIMAS NOTICIAS
+*****************************
+*/
+.ultimas-noticias{
+    width: 100%;
+    height: 40px;
+}
+.ultimas-noticias-area {
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+    height: 40px;
+}
+.ultimas-noticias-campo {
+    height: 28px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    margin-top: 10px;
+}
+.ultimas-noticias-titulo{
+    background-color: #FF0000;
+    color: #FFF;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 15px;
+}
+.ultimas-noticias-noticia {
+    color: #CCC;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 5px;
+}
+/*
+***********************************
+    CONTAINER PRINCIPAL DO PORTAL
+***********************************
+*/
+.container{
+    width: 100%;
+}
+.container-area {
+    width: 100%;
+    max-width: 1040px;
+    margin: auto;
+}
+.container-area .right-side {
+    width: 275px;
+    min-height: 200px;
+    float: right;
+    margin-left: 12px;
+}
+.container-area .left-side {
+    float: left;
+    min-height: 200px;
+    width: 753px;
+}
+.container-area .right-side .widget {
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+.container-area .right-side .widget .widget_titulo {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    background-color: #DDD;
+    border-bottom: 1px solid #CCC;
+    font-size: 14px;
+}
+.container-area .right-side .widget .widget_conteudo{
+    text-align: center;
+    padding: 5px 0;
+}
