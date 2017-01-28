@@ -217,9 +217,24 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     background-color: #CCC;
     overflow: hidden;
 }
+.container-area .left-side .slideshow .slide-bolinha{
+    position: absolute;
+    width: 200px;
+    height: 20px;
+}
+.container-area .left-side .slideshow .bolinhas{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #CCC;
+    border-radius: 10px;
+}
 .container-area .left-side .slideshow .slideshow-area{
     height: 335px;
-    background-color: green;
+    width: 4000px;
+    transition: all 1s;
 }
 .container-area .left-side .slideshow .slideshow-area .slide{
     height: 335px;
@@ -228,7 +243,23 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     background-position: center;
     background-size: cover;
 }
-
+.left-side .slideshow .slideshow-area .slide .slide-info{
+    height: 70px;
+    background-image: url('../images/slideshow_bg.png');
+    background-size: auto 70px;
+    margin-top: 265px;
+}
+.left-side .slideshow .slideshow-area .slide .slide-info .slide-info-titulo{
+    font-size: 20px;
+    color: #FFF;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+.left-side .slideshow .slideshow-area .slide .slide-info .slide-info-subtitulo{
+    font-size: 13px;
+    color: #FFF;
+    padding-left: 20px;
+}
 
 /*
 ***********************************
