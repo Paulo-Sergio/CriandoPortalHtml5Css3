@@ -204,9 +204,31 @@ nav .menu-area ul li .submenu .submenu-item:hover{
 }
 .container-area .left-side {
     float: left;
-    min-height: 200px;
     width: 753px;
 }
+
+/*
+***********************************
+    CONTAINER PRINCIPAL DO PORTAL - LEFT RIGHT
+***********************************
+*/
+.container-area .left-side .slideshow{
+    height: 335px;
+    background-color: #CCC;
+    overflow: hidden;
+}
+.container-area .left-side .slideshow .slideshow-area{
+    height: 335px;
+    background-color: green;
+}
+.container-area .left-side .slideshow .slideshow-area .slide{
+    height: 335px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 /*
 ***********************************
