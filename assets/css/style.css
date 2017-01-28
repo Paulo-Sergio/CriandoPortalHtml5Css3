@@ -207,6 +207,12 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     min-height: 200px;
     width: 753px;
 }
+
+/*
+***********************************
+    CONTAINER PRINCIPAL DO PORTAL - SIDE RIGHT
+***********************************
+*/
 .container-area .right-side .widget {
     background-color: #FFF;
     border: 1px solid #CCC;
@@ -223,4 +229,16 @@ nav .menu-area ul li .submenu .submenu-item:hover{
 .container-area .right-side .widget .widget_conteudo{
     text-align: center;
     padding: 5px 0;
+}
+
+.container-area .right-side .widget .widget_conteudo .noticia-item{
+    font-size: 12px;
+    text-align: left;
+    margin: 0 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #CCC;
+}
+.container-area .right-side .widget .widget_conteudo .noticia-item a{
+    text-decoration: none;
+    color: #000;
 }
