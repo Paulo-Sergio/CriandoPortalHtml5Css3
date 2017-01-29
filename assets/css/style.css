@@ -285,13 +285,52 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     width: 430px;
     height: 420px;
     float: left;
-    background: #333;
 }
 .left-side .widget .widget_conteudo .noticia-area2{
     width: 321px;
     height: 420px;
     float: left;
-    background: #CCC;
+}
+.noticia-area-item {
+    text-align: left;
+    height: 88px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.noticia-area-item .noticia-img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid #CCC;
+    padding: 3px;
+    float: left;
+}
+.noticia-area-item .noticia-titulo{
+    float: left;
+    width: 226px;
+    margin-left: 6px;
+    font-size: 15px;
+}
+.noticia-area-item .noticia-info{
+    font-size: 12px;
+    margin-left: 6px;
+    color: #999;
+    width: 226px;
+    float: left;
+}
+.noticia-big{
+    margin-left: 10px;
+}
+.noticia-big .noticia-img{
+    width: 384px;
+    height: 222px;
+}
+.noticia-big .noticia-img img{
+    width: 384px;
+    height: 222px;
+}
+.noticia-big .noticia-titulo {
+    font-size: 28px;
+    width: 384px;
 }
 
 /*
