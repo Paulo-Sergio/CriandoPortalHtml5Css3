@@ -207,6 +207,25 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     width: 753px;
 }
 
+.widget {
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+
+.widget .widget_titulo {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    background-color: #DDD;
+    border-bottom: 1px solid #CCC;
+    font-size: 14px;
+}
+.widget .widget_conteudo{
+    text-align: center;
+    padding: 5px 0;
+}
+
 /*
 ***********************************
     CONTAINER PRINCIPAL DO PORTAL - LEFT RIGHT
@@ -216,6 +235,7 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     height: 335px;
     background-color: #CCC;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .container-area .left-side .slideshow .slide-bolinha{
     position: absolute;
@@ -261,29 +281,24 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     padding-left: 20px;
 }
 
+.left-side .widget .widget_conteudo .noticia-area1{
+    width: 430px;
+    height: 420px;
+    float: left;
+    background: #333;
+}
+.left-side .widget .widget_conteudo .noticia-area2{
+    width: 321px;
+    height: 420px;
+    float: left;
+    background: #CCC;
+}
+
 /*
 ***********************************
     CONTAINER PRINCIPAL DO PORTAL - SIDE RIGHT
 ***********************************
 */
-.container-area .right-side .widget {
-    background-color: #FFF;
-    border: 1px solid #CCC;
-    margin-bottom: 10px;
-}
-.container-area .right-side .widget .widget_titulo {
-    height: 30px;
-    line-height: 30px;
-    padding-left: 5px;
-    background-color: #DDD;
-    border-bottom: 1px solid #CCC;
-    font-size: 14px;
-}
-.container-area .right-side .widget .widget_conteudo{
-    text-align: center;
-    padding: 5px 0;
-}
-
 .container-area .right-side .widget .widget_conteudo .noticia-item{
     font-size: 12px;
     text-align: left;
