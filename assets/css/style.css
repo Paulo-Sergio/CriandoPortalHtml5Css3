@@ -353,7 +353,7 @@ nav .menu-area ul li .submenu .submenu-item:hover{
 /*****************************************
     ADAPTAÇÕES (RESPONSIVIDADE DO PORTAL)
 ******************************************/
-@media only screen and (max-width:1060px){
+@media only screen and (min-width:909px) and (max-width:1060px){
     .topo-area, 
     .topo-area2, 
     .menu-area, 
@@ -365,7 +365,7 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     .left-side{
         max-width: 600px;
     }
-    .noticia-area1{
+    .left-side .noticia-area1{
         max-width: 277px;
     }
     .noticia-big .noticia-img,
@@ -374,6 +374,44 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     }
     .noticia-big .noticia-titulo{
         width: 245px;
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width:770px) and (max-width:909px){
+    .topo-area, 
+    .topo-area2, 
+    .menu-area, 
+    .ultimas-noticias-area,
+    .container-area{
+        max-width: 768px;
+    }
+    
+    .topo2 .topo-area2 .banner{
+        display: none;
+    }
+    .topo2 .topo-area2 .logo{
+        float: none;
+        margin: auto;
+    }
+    
+    .right-side{
+        display: none;
+    }
+    
+    .left-side{
+        float: none;
+        max-width: auto;
+    }
+    .left-side .noticia-area1{
+        max-width: 446px;
+    }
+    .noticia-big .noticia-img,
+    .noticia-big .noticia-img img{
+        width: 400px;
+    }
+    .noticia-big .noticia-titulo{
+        width: 400px;
         font-size: 23px;
     }
 }
