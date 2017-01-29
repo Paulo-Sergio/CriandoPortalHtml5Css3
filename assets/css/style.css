@@ -349,3 +349,31 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     text-decoration: none;
     color: #000;
 }
+
+/*****************************************
+    ADAPTAÇÕES (RESPONSIVIDADE DO PORTAL)
+******************************************/
+@media only screen and (max-width:1060px){
+    .topo-area, 
+    .topo-area2, 
+    .menu-area, 
+    .ultimas-noticias-area,
+    .container-area{
+        max-width: 890px;
+    }
+    
+    .left-side{
+        max-width: 600px;
+    }
+    .noticia-area1{
+        max-width: 277px;
+    }
+    .noticia-big .noticia-img,
+    .noticia-big .noticia-img img{
+        width: 245px;
+    }
+    .noticia-big .noticia-titulo{
+        width: 245px;
+        font-size: 23px;
+    }
+}
