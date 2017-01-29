@@ -109,6 +109,9 @@ nav .menu-area{
     height: 40px;
     margin: auto;
 }
+nav .menu-area .menu-mobile{
+    display: none;
+}
 nav .menu-area > ul {
     margin: 0;
     padding: 0;
@@ -361,7 +364,7 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     .container-area{
         max-width: 890px;
     }
-    
+
     .left-side{
         max-width: 600px;
     }
@@ -386,7 +389,7 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     .container-area{
         max-width: 768px;
     }
-    
+
     .topo2 .topo-area2 .banner{
         display: none;
     }
@@ -394,11 +397,13 @@ nav .menu-area ul li .submenu .submenu-item:hover{
         float: none;
         margin: auto;
     }
-    
+
+    #menu{display: block !important;}
+
     .right-side{
         display: none;
     }
-    
+
     .left-side{
         float: none;
         max-width: auto;
@@ -413,5 +418,96 @@ nav .menu-area ul li .submenu .submenu-item:hover{
     .noticia-big .noticia-titulo{
         width: 400px;
         font-size: 23px;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .topo-area, 
+    .topo-area2, 
+    nav .menu-area, 
+    .ultimas-noticias-area,
+    .container-area,
+    .container-area .left-side{
+        max-width: 350px;
+    }
+
+    .container-area .left-side{
+        margin-top: 10px;
+        float: none;
+    }
+
+    .topo .topo-left{
+        display: none;
+    }
+    .topo .topo-right{
+        width: 100%;
+    }
+
+    .topo2 .topo-area2 .banner{
+        display: none;
+    }
+    .topo2 .topo-area2 .logo{
+        float: none;
+        margin: auto;
+    }
+
+    .ultimas-noticias{
+        display: none;
+    }
+
+    .menu-area{
+
+    }
+    nav .menu-area .menu-mobile{
+        display: block;
+    }
+    nav .menu-area ul{
+        position: absolute;
+        background-color: red;
+        z-index: 10;
+        display: none;
+    }
+    nav .menu-area ul li{
+        float: none;
+        height: auto;
+    }
+    nav .menu-area ul li .submenu{
+        position: static;
+        display: block;
+    }
+    nav .menu-area ul li img{
+        display: none;
+    }
+
+    .right-side{
+        display: none;
+    }
+    .left-side .noticia-area1{
+        max-width: 350px;
+        max-height: 300px;
+    }
+    .noticia-big .noticia-img,
+    .noticia-big .noticia-img img{
+        width: 320px;
+    }
+    .noticia-big .noticia-titulo{
+        width: 320px;
+        font-size: 20px;
+    }
+
+    .left-side .noticia-area2{
+        max-width: 350px;
+        float: none;
+        margin: auto;
+        margin-top: 20px;
+        clear: both;
+    }
+    .noticia-area2 .noticia-area-item{
+        clear: both;
+    }   
+    .noticia-area2 .noticia-titulo,
+    .noticia-area2 .noticia-info
+    {
+        width: 206px;
     }
 }
